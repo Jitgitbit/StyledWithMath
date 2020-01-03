@@ -5,5 +5,8 @@ $lagoon-blue: fade-out(#62fdca, 0.5);
   width: $width;
   text-align: center;
   background-color: $lagoon-blue;
-  color: red + blue;
+  color: magenta;
+  height: $width/6;
+  line-height: $width/6;
+  border-radius: $width/30;
 }
