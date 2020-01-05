@@ -7,3 +7,8 @@ $step: 360deg / $total; //Used to compute the hue based on color-wheel
 }
 
 //Add your for-loop here:
+@for $i from 1 through $total {
+  .ray:nth-child(#{$i}) {
+    background: blue;
+   }
+}
